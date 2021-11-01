@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        var message = "in global";
+        console.log("Global: message=" + message);
+        a();
+        function a() {
+            var message = "inside a";
+            console.log("a: message=" + message);
+
+        }
+        b();
+        function b() {
+            console.log("b: message =" + message);
+        }
+    </script>
+</head>
+
+<body>
+    <h1>scope</h1>
+</body>
+
+</html>
