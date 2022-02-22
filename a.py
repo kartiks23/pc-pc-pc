@@ -1,0 +1,140 @@
+#   print("hello world")
+#   message = "This is a string."
+#   print(message)
+#   message1 = """ I'm so used to telling people to fuck off tham
+#   sometimes i forget that they said "They are busy." """
+#   print(message1)
+#   a = 123
+#   b = 341.523
+#   z = 2+63453j
+#   print(z)
+#   print(a)
+#   print(b)
+#   print(z.real)
+#   print(z.imag)
+
+#   print(pow(2, 5))
+
+#   ninja = input("Please enter: ")
+
+#   if len(ninja)<6:
+#       print("Please enter different string.")
+
+#   side1 = input("Please enter a side 1: ")
+#   side1 = int(side1)
+#   side2 = input("Please enter a side 2: ")
+#   side2 = int(side2)
+#   side3 = input("Please enter a side 3: ")
+#   side3 = int(side3)
+
+#   if side1 != side2 and side2 != side3 and side1 != side3:
+#       print("The triangle is scalean")
+#   elif side1 == side2 and side2 == side3:
+#       print("The triangle is equilaterial")
+#   else:
+#       print("The triangle is isocelious")
+
+#   from cgi import print_form
+
+
+#   def ping():
+#       return "Ping!!"
+
+#   print(ping())
+# def vol(r):
+#     volume = 4/3 * 3.14* r**3
+#     return volume
+
+#   r = float(input ("Please enter the radius of the sphere"))
+#   print("The volume of the sphere is " + vol(r))
+# print(vol(1))
+
+a =set()   #add, no order, ignore second time, .remove if error, .discard if no erroe, .clear to empty, .union, .intersection, 5 in prime=>True, 4 not in prime =>False 
+b = list() #append, order, b = [] or list(), back last is -1, prime[2:5] 2 is included but 5 isn't, all type of data, duplicate allowed, number + letters != letters + numbers 
+c = {"Name" :"Kartik", "Sirname" : "Sharma", "Roll NUmber": 2006111, "Father" : "Alive", "Mother" : "Alive"} #wtf is this bruh, order doesn't matter, key hota and value hota, dict class, 
+
+c2 = dict(Name = "Kartik" , sirname = "Sharma" )#here "" not required in key, 
+# a.add("True")
+# a.add(True)
+# a.add(47)
+# a.add("Kartik Sharma")
+# print(a)
+# a.remove("kartik")
+# a.discard("Sharma")
+# print(a)
+# a.discard("Kartik Sharma")
+# print(a)
+# b.append("Kartik")
+# b.append("Sharma")
+# b.append(99)
+# b.append(True)
+# b.append((42,5252,523525,21561561,5132523))
+# print(b)
+# print(b)
+# print(b[0:3])
+# print(b[0:-1])
+# print(b[-1])
+# try: 
+#     b.remove("Kartik")
+#     print(b)
+# except ValueError:
+#     print("Nhi hai ye sab lavdes")
+# c2["Roll Number"] = 2006111#like this u can add things to dict HERE YOU NEED TO PUT "" IN KEY 
+# c2["Father"] = "Alive"
+# print(c)
+# print(c2)
+# print(c2["Name"])
+# print(c["Name"])
+
+# try: print(c2["Pencho"])
+# except KeyError: print("Not present there")
+
+# print(c2.get("pencho", 44))
+# for i in c.keys():
+#     k = c[i]
+#     print(i, "=" , k)
+
+
+# for key, value in c2.items():
+#      print(value, "=", key)
+
+# c.popitem()
+# print(c)
+
+# a.add("Name")
+# a.add("Kartik")
+# a.add("Sharma")
+# a.add("Roll Number")
+# a.add(2006111)
+# for i in a:
+#     print(i)
+#here the i gives us the value, treat it as a pointer giving us the value
+
+
+#tuples
+
+# tuple = 1,2,3,4 
+# a,b,c,d = tuple
+
+# print(a,b,c,d)
+# from functools import lru_cache
+# @lru_cache(maxsize=1000)
+
+# def fab(n):
+#     if n==1:
+#         return 1
+#     elif n==2:
+#         return 1
+#     else:
+#         return fab(n-1) + fab(n-2)
+
+# for i in range(1,1001):  
+#     print(fab(i))
+
+
+
+
+
+
+
+
