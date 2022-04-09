@@ -35,6 +35,7 @@ int main()
 	int wt[] = {10, 20, 30};
 	int W = 50;
 	int n = sizeof(val) / sizeof(val[0]);
-	printf("%d", knapSack(W, wt, val, n));
+
+	printf("The maximum profit is : %d", knapSack(W, wt, val, n));
 	return 0;
 }
