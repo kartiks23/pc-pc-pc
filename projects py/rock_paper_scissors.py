@@ -35,6 +35,4 @@ def play():
     if(player == computer):
         print(
             f"The game was tied because both computer and person choose {computer}")
-
-
 play()

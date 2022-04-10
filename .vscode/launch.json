@@ -5,6 +5,20 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch leetcode",
+            "request": "launch",
+            "mainClass": "leetcode",
+            "projectName": "vsc_759d2b8e"
+        },
+        {
+            "type": "java",
+            "name": "Launch hello4",
+            "request": "launch",
+            "mainClass": "hello4",
+            "projectName": "vsc_759d2b8e"
+        },
+        {
             "name": "gcc.exe - Build and debug active file",
             "type": "cppdbg",
             "request": "launch",
