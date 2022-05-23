@@ -2,7 +2,7 @@ import java.util.*;
 
 public class stack1 {
     public static void main(String[] args) {
-        Stack2<Integer> myStack = new Stack2<>();
+        Stack<Integer> myStack = new Stack<>();
         myStack.push(10);
         System.out.println(myStack + "--->>" + myStack.peek() + " " + myStack.size());
         myStack.push(20);

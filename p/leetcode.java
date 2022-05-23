@@ -1,6 +1,14 @@
-import java.util.*;
+class Solution {
+    public int removeDuplicates(int[] nums) {
+        int[] a;
+        for (int i = 0;i<nums.length;) {
+            for (int j=0;j<nums.length;j++) {
+                while (nums[i] != nums[j]) {
 
-public class leetcode {
-    public static void main(String[] args) {
+                }
+                a[i] = nums[i];
+                
+            }
+        }
     }
 }
